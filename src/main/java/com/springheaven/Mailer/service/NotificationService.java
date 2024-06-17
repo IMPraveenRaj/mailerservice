@@ -38,7 +38,8 @@ public class NotificationService {
                         .append(", Expiry Date: ").append(customer.getMembershipExpiryDate()).append("\n");
             }
 
-            sendEmail("tothemailyouwishtosend", "Expiring Gym Memberships", messageContent.toString());
+
+            sendEmail("mail you wish to send ", "Expiring Gym Memberships", messageContent.toString());
         }
     }
 
